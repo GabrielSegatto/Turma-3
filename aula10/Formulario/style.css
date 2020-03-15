@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'brandon_bold', sans-serif;
+    line-height: 1.19;
+    letter-spacing: 1.4px;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+div h2{
+    margin-bottom: 1%;
+}
+
+form{
+    width: 20%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    padding: 1% 0;
+}

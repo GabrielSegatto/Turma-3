@@ -1,0 +1,40 @@
+*{margin: 0px;
+padding: 0px;}
+.linhaUm{
+    height: 20vh;
+    width: 100vw;
+    background-color:#4267B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linhaDois{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    background-color: #05060E;
+}
+.linhaDois nav{
+    height: 80vh;
+    width: 20vw;
+    background-color: #FFFFFF;   
+}
+.linhaTres{
+    height: 35vh;
+    width: 100vw;
+    background-color: #4267B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contato a{
+    display: flex;
+    align-items: center;
+}
+.contato a img{
+    height: 5%;
+    width: 5%;
+}
+
+
+

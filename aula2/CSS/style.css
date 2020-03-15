@@ -1,0 +1,47 @@
+/* Altera a cor de fundo de todo o corpo */
+body{
+    background-color: whitesmoke;
+}
+
+/* Altera a cor e o tamanho do título */
+h1{
+    color: aqua;
+    font: bold;
+}
+
+/* Altera a cor da classe subtítulos */
+.subtitulo {
+    color: lightblue;
+}
+
+/* Adiciona uma borda na ul */
+ul{
+    border: black 1px solid;
+}
+
+/* Altera o tamanho e estilo do id item2 */
+#item2{
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* Altera a decoração dos itens li dentro de uma ol */
+ol li {
+    text-decoration:underline;
+}
+
+/* Centraliza a imagem referente a classe dog */
+.dog{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+
+/* Altera o tamanho, decoração e cor do link */
+a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}

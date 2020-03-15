@@ -1,0 +1,37 @@
+
+.tabela{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Aulas{
+    height: 15%;
+    width: 80%;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    padding-left: 2vw; 
+    transition: 2s;
+}
+
+.Extra{
+    display: none;
+    transition: 2s;
+}
+
+.Aulas:hover{
+    height: 30%;
+}
+
+.Aulas:hover .Extra{
+    display: flex;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fim de ano</title>
+    <!-- Para ligar o JavaScript com o HTML usamos a tag script -->
+    <script defer src="./scrip.js"></script>
+    <!-- A palavra defer serve para ignorar o codigo, 
+        assim nosso codigo não é executado logo quando a pagina é caregada
+        mas sim quando clicamos no botão  -->
+</head>
+<body>
+    <!-- Usamos a tag form para juntar todos os campos de um formulario -->
+    <form>
+
+        <!-- A tag input permite que o usuario escreva em um caixa de texto -->
+        <input type="text" placeholder="Usuário" id="usuario"> 
+        <!-- type = text é uma caixa de texto comum -->
+        <!-- placeholder mostra um texto que some quando voce começa a digitar -->
+        <!-- Não podemos esquecer de criar um id para cada caixa de texto assim podemos localiza-la com o JS -->
+
+        <input type="password" placeholder="Senha" id="senha">
+        <!-- type = password é uma caixa de texto que esconde o texto digitado -->
+
+        <input type="button" value="Enviar" onclick="logar()">
+        <!-- type = button é um botão -->
+        <!-- value representa o texto que aparecera dentro do botão -->
+        <!-- onclick serve para chamar nossa função que valida a informação digitada -->
+        
+    </form>
+</body>
+</html>

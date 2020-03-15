@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Litrão</title>
+    <script defer src="./d2.js"></script>
+    <script defer src="./d4.js"></script>
+</head>
+<body>
+    <form>
+        <h2>Altura:</h2>
+        <input type="text" id="alt" placeholder="0">
+        <h2>Largura:</h2>
+        <input type="text" id="lar" placeholder="0">
+        <h2>Profundidade:</h2>
+        <input type="text" id="pro" placeholder="0">
+        <h2>Litros:</h2><p id="lit">0 litros</p>
+        <input type="button" value="Calcular" onclick="calcular()">
+    </form>
+<br>
+    <form>
+        <select id="listaCarros" onchange="daValorCaro()">
+            <option value="X1">X1</option>
+            <option value="HB20">HB20</option>
+            <option value="Veloster">Veloster</option>
+        </select>
+        <h3>Preço de: </h3>
+        <p id="precoCarro">R$ 0</p>
+    </form>
+</body>
+</html>

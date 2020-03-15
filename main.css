@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'brandon_bold', sans-serif;
+    line-height: 1.19;
+    letter-spacing: 1.4px;
+}
+
+.corpo{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+
+.linha1, .linha3{
+    width: 100%;
+    height: 15vh;
+    background-color: #4267B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha1 h1 {
+    color: aliceblue;
+    font-size: 200%;
+}
+
+.linha2 {
+    width: 100%;
+    height: auto;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 20px;
+    outline: 2px lightgray solid;
+    background-color: #E9EBEE;
+}
+
+.linha2 nav{
+    width: 16%;
+    height: auto;
+    padding: 3% 2% 3% 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.linha2 nav a{
+    padding: 2% 0 2% 6%;
+    text-decoration: none;
+}
+
+.linha2 nav h2{
+    padding: 2% 0 2% 3%;
+}
+
+.linha2 .placar{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.placar header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05060E;
+    border-radius: 5px 5px 0 0;
+    color: #EEE3D7;
+}
+
+.placar .lista{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #05060E;
+    border-radius: 0 0 5px 5px;
+}
+
+.lista article{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista article p{
+    font-size: 3vw;
+    color: #858073;
+}
+
+.linha2 article input{
+    background-color: #05060E;
+    border: none;
+    font-size: 3vw;
+    color: #858073;
+    outline: none;
+}
+
+
+
+
+
+
+
+.linha3{
+    flex-direction: column;
+}
+
+.linha3 h2, .linha3 p{
+    color: aliceblue;
+    font-size: 200%;
+}
+

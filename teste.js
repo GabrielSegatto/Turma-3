@@ -1,0 +1,1 @@
+alunos = ['Ale', 'Gui', 'Mathias', 'Rodrigo']

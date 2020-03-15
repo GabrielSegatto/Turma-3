@@ -1,0 +1,50 @@
+@media only screen and (min-width: 700px) {    
+    .secTela{
+        width:  80%;
+        height: 15vh;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        border: 2px black solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:  2px solid black;
+        background-color:rgb(201, 201, 201);
+        border-radius: 60px;
+    }
+
+    .tela{
+        width:90%;
+        height:60%;
+        background-color: white;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resultado{
+        font-size: 200%;
+    }
+
+    .formBnt{
+        width:  70%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color:rgb(201, 201, 201);
+        border:  2px solid black;
+        border-radius: 60px;
+        margin-bottom: 2%;
+    }
+
+    .bnt{
+        width: 10vw;
+        height: 8vw;
+        font-size: 200%;
+        border-radius: 60px;
+        background-color: #E4E0E0;
+    }
+} 
